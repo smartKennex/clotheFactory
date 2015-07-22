@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!-- APP主要色 -->
+    <color name="base_orange">#FF8C0E</color>
+    <color name="light_orange">#F9A400</color>
+    <!-- 更亮一点的橙 -->
+    <color name="base_blue">#0091EA</color>
+
+    <color name="tab_gray">#BDBDBD</color>
+    <color name="title_bar_bg_color">#A1A1A1</color>
+    <color name="activity_back_color">#D6D8DB</color>
+    <color name="activity_fore_color">#FFFFFF</color>
+    <color name="login_blue">#546E7A</color>
+    <color name="login_button_normal">#F9A400</color>
+    <color name="login_button_pressed">#FFBB37</color>
+    <color name="login_button_disabled">#D0D0D0</color>
+
+    <color name="user_view_bg">#f3f3f3</color>
+    <color name="user_config_item_divider_color">#BDBDBD</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="black">#ff000000</color>
+    <color name="question_status_text">#ff333333</color>
+    <color name="ask_question_tip_text">#ffB3B3B3</color>
+    <color name="app_title_text">#ffb2bfde</color>
+    <color name="selected_tab_bg">#20000000</color>
+    <color name="leave_conversation_bg">#b2000000</color>
+
+    <color name="selected_tab_text">#c0eed5</color>
+
+    <color name="non_selected_tab_bg">#40000000</color>
+    <color name="non_selected_tab_text">#ffB3B3B3</color>
+    <color name="question_details_bg">#dfdfdf</color>
+    <color name="status_bar_bg_in_conversion">#b4faf5ee</color>
+    <color name="update_content_bg">#faf5ee</color>
+    <color name="dark_gray">#CED9DD</color>
+    <color name="light_gray">#E2E7EA</color>
+
+    <color name="grade_subject_title_text">#ced2d1</color>
+
+    <!-- 白板笔颜色-->
+    <color name="wb_pen_of_teacher">#cd007ac4</color>
+    <color name="wb_red_pen_of_teacher">#ff0000</color>
+    <color name="wb_pen_of_student">#cdff9e00</color>
+    <color name="page_number_color">#ff9e00</color>
+
+    <color name="sign_up_text">#b3b3b3</color>
+    <color name="context_color">#555555</color>
+    <color name="answer_btn_color">#16b35d</color>
+    <color name="next_step_text_color">#539b2f</color>
+    <color name="question_list_item_bg">#f4f7fa</color>
+    <color name="wheel_selection_bg">#88c43f</color>
+    <color name="green_light">#8bc34a</color>
+    <color name="green_dark">#5c7858</color>
+    <color name="name_color">#2196f3</color>
+
+    <color name="thumbnails_btn_color">#DDDDDD</color>
+    <color name="crop_handle_color">#0091EA</color>
+    <color name="crop_outline_color">#0091EA</color>
+
+    <color name="home_fragment_bg">#f9f8f3</color>
+    <color name="gray_text_color">#b6bdbe</color>
+    <color name="blue_text_color">#0091ea</color>
+    <color name="line_divider_color">#eaeaea</color>
+    <color name="question_time_color">#b0bec5</color>
+    <color name="view_select_color">#cfd8dc</color>
+    <color name="suspend_window_bg">#999999</color>
+    <color name="suspend_window_trans">#e06c6c6c</color>
+    <color name="switch_track_color">#9ca6ac</color>
+    <color name="switch_on_thumb_color">#007bc6</color>
+    <color name="switch_off_thumb_color">#8b9499</color>
+    <color name="whiteboard_screen_text_dark_color">#546e7a</color>
+    <color name="whiteboard_screen_text_light_color">#b6bdbe</color>
+    <color name="leave_dialog_bg">#fafafa</color>
+
+    <color name="select_role_student">#f3edd2</color>
+    <color name="select_role_teacher">#cae0ee</color>
+
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+    <color name="ccc">#cccccc</color>
+    <color name="list_select_indicator">#f2f2f2</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="line_color">#FFD5D5D5</color>
+    <color name="text_grey">#999999</color>
+    <color name="gray">#999999</color>
+    <color name="bg_dialog_title">#2b2e33</color>
+    <color name="listview_bg">#FFF4F4F4</color>
+    <color name="bg_black_pressed">#44000000</color>
+    <color name="list_view_divider">#4e5359</color>
+    <color name="orange">#e47139</color>
+
+    <color name="player_toolbar_bg">#cd000000</color>
+
+    <color name="progress_bar_progress">#D3F5B6</color>
+    <color name="progress_bar_back">#ffffff</color>
+    <color name="text_black">#333333</color>
+    <color name="text_gray">#888888</color>
+    <color name="finish_color">#aaaaaa</color>
+    <color name="text_green">#2bac6c</color>
+    <color name="active_vol_indicator_bg">#404040</color>
+    <color name="normal_vol_indicator">#66bb6a</color>
+    <color name="lag_vol_indicator">#f9a213</color>
+    <color name="offline_vol_indicator_bg">#c4c4c4</color>
+
+    <color name="common_dialog_btn_down">#EBEBEB</color>
+
+    <!-- 学生预约相关颜色值，开始 -->
+    <color name="cal_header_text_color">#ffcba6</color>
+    <color name="appt_teachers_list_bg">#f3f3f3</color>
+    <color name="appt_teachers_list_split_line">#dddddd</color>
+    <color name="appt_dark_text">#666666</color>
+    <color name="appt_light_text">#999999</color>
+    <color name="appt_checkbox_non_checked">#bbbbbb</color>
+    <color name="appt_checkbox_checked">#ff8c0e</color>
+
+    <!-- 学生预约相关颜色值，结束 -->
+
+    <color name="connected_teacher_color">#ff5400</color>
+    <color name="choosing_suitable_teacher">#f27800</color>
+    <color name="realtime_push_text_bg">#80ffffff</color>
+    <color name="quick_response_time_text">#d4d4d4</color>
+    <color name="quick_response_color">#f9a400</color>
+    <color name="indicator_point_press">#646464</color>
+    <color name="indicator_point_normal">#e1e1e1</color>
+    <color name="ignore_button_bg">#ccffffff</color>
+    <color name="ripple_stroke">#33ffffff</color>
+    <color name="ripple_bg">#19ffffff</color>
+
+    <color name="notify_list_selector">#f3f3f3</color>
+
+    <!-- 问题详情相关颜色 -->
+    <color name="question_created_date_text_color">#c2c2c2</color>
+    <color name="to_be_confirmed_text_color">#c2c2c2</color>
+    <color name="confirmed_text_color">#ff8400</color>
+
+    <!-- 问题列表页相关颜色 -->
+    <color name="top_bar_text_selected_color">#ffd9bf</color>
+    <color name="top_bar_text_normal_color">#ffd6b9</color>
+    <color name="top_bar_indicator_selected_color">#fafafa</color>
+    <color name="grade_subject_text_color">#c2c2c2</color>
+
+    <!-- 引导页相关颜色 -->
+    <color name="guide_page_color_1">#c378d6</color>
+    <color name="guide_page_color_2">#73a9f9</color>
+    <!-- 老师详情页相关颜色 -->
+    <color name="teacherinfo_viewPager_Selected">#ff8c0e</color>
+    <color name="teacherinfo_viewPager_Normal">#666666</color>
+
+    <!--定义一些不方便在xml里写在drawable后面的颜色-->
+    <color name="color_f3f3f3">#F3F3F3</color>
+    <color name="color_bdbdbd">#BDBDBD</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_e7e7e7">#E7E7E7</color>
+
+    <color name="button_bg_normal">#1C2B32</color>
+    <color name="button_bg_edit">#FAF5EF</color>
+
+</resources>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- splash and version translation -->
+<string name="app_name">WishingWell</string>
+<string name="app_slogan">时刻准备着</string>
+
+<!--register translations-->
+<string name="register_title_student">学生注册</string>
+<string name="register_title_teacher">老师注册</string>
+<string name="register_nation_code_default">+86</string>
+<string name="register_account_input_hint">请输入手机号码</string>
+<string name="register_password_input_hint">请输入密码<font size="10">（由8-20个英文字母、数字、符号构成）</font></string>
+<string name="register_next_button_text">下一步</string>
+<string name="register_exist_account_button_text">已有帐号，直接登录</string>
+<string name="register_tips_account_error">请输入正确的手机号码</string>
+<string name="register_tips_password_error">密码由8-20个英文字母、数字、符号构成</string>
+<string name="register_tips_account_exist">你的帐号已在YY注册，请直接登录</string>
+<string name="register_tips_web_register_error">业务系统注册失败</string>
+<string name="register_tips_loading">注册中，请稍候</string>
+<string name="verify_title">手机验证</string>
+<string name="verify_tips">已将验证码发送到</string>
+<string name="verify_sms_signature">【YY语音】</string>
+<string name="verify_code_input_hint">请输入验证码</string>
+<string name="verify_resend_button_text_resend">重新获取</string>
+<string name="verify_resend_button_text_sending">正在获取</string>
+<string name="verify_register_button_text">注册</string>
+<string name="teacher_info_name_hint">您的姓名</string>
+<string name="teacher_info_name_empty_tips">姓名必须填写</string>
+<string name="teacher_info_subject">学科</string>
+<string name="teacher_info_subject_hint">选择学科</string>
+<string name="teacher_info_skill_hint">擅长领域：如二次函数</string>
+<string name="teacher_info_commit_button_text">提交</string>
+
+<!--setting-->
+<string name="setting_item_avatar">头像</string>
+<string name="setting_item_name">姓名</string>
+<string name="setting_item_grade">年级</string>
+<string name="setting_item_subject">科目</string>
+<string name="setting_item_school">学校</string>
+<string name="setting_item_teacher_age">教龄</string>
+<string name="setting_view_title">个人资料</string>
+<string name="setting_user_description">个人介绍</string>
+<string name="setting_user_description_hint">请输入个人介绍</string>
+<string name="setting_modify_name">修改姓名</string>
+<string name="setting_modify_name_hint">请输入5字以内姓名</string>
+<string name="setting_modify_school">修改学校</string>
+<string name="setting_modify_school_hint">请输入15字以内学校名</string>
+<string name="setting_commit_success">修改成功</string>
+<string name="setting_commit_failed">修改失败</string>
+<string name="setting_upload_avatar_failed">上传头像失败</string>
+
+<!-- login and setting translations -->
+<string name="wrong_passport">帐号错误，请重新输入</string>
+<string name="wrong_password">密码错误，请重新输入</string>
+<string name="passport_not_exist">帐号不存在</string>
+<string name="login_failed">登录失败</string>
+<string name="login_web_server_failed">登录到业务系统失败</string>
+<string name="no_network_now">当前无可用网络</string>
+<string name="login">登录</string>
+<string name="login_lite_title">手机帐号登录</string>
+<string name="login_pic_refresh_button_text">换一张</string>
+<string name="login_pic_dialog_title">为保障你的帐号安全，请输入下图中的验证码</string>
+<string name="login_token_dialog_title">为保障你的帐号安全，请输入动态口令</string>
+<string name="login_token_failed">动态口令有误，请重新输入</string>
+<string name="register">注册</string>
+<string name="forgot_password">忘记密码</string>
+<string name="logout">注销</string>
+<string name="edit">编辑</string>
+<string name="done">完成</string>
+<string name="select">选择</string>
+<string name="really_to_logout">确定退出当前帐号？</string>
+<string name="edit_setting_fail">个人资料修改失败， 暂不支持</string>
+<string name="edit_setting_success">个人资料修改成功！</string>
+<string name="already_new_version">已经是最新版本</string>
+<string name="update_error">更新失败，请重试</string>
+<string name="now_update">马上升级</string>
+<string name="ignore_update">忽略本次升级</string>
+<string name="i_am_student">我是学生</string>
+<string name="i_am_teacher">我是老师</string>
+<string name="head_photo">头像</string>
+<string name="name">姓名</string>
+<string name="answer_subject">解答科目</string>
+<string name="login_time_out">服务器繁忙，请稍等片刻再尝试。</string>
+
+
+<!-- cameraSurface translations -->
+<string name="image_file_invalid_err">存储访问失败，相机无法启动</string>
+<string name="back_camera_not_found">未找到后置摄像头，相机无法启动</string>
+<string name="fail_to_connect_to_camera_service">相机无法访问</string>
+<string name="from_camera">拍照</string>
+<string name="from_gallery">相册</string>
+
+
+<!--mainActivity and question translations -->
+<string name="home_tab">首页</string>
+<string name="questions_tab">问题</string>
+<string name="questions_for_teacher_tab">解答</string>
+<string name="ask_tab">拍照提问</string>
+<string name="messages_tab">消息</string>
+<string name="discover_tab">发现</string>
+<string name="settings">设置</string>
+<string name="profile">我</string>
+<string name="answered_total">随身家教已解答难题</string>
+<string name="asked_total">学生已提问</string>
+<string name="recent_answers">最新解答</string>
+<string name="recent_unanswers">学生正在问</string>
+<string name="submit_confirm">是否提交问题？</string>
+<string name="discard_picture_confirm">确定要删除图片吗？</string>
+<string name="cancel_create_question_confirm">确定要取消提问吗？</string>
+<string name="question_create_completed">难题已经抛给老师了</string>
+<string name="question_create_completed1">等一下就有老师亲自来讲解啦~</string>
+<string name="back_to_questions">返回到待解答列表</string>
+<string name="question_default_desc">这道题不太懂呢，麻烦老师详细解答一下~</string>
+<string name="question_picture_upload_failed">图片上传失败，问题加入草稿</string>
+<string name="question_no_picture">请添加问题图片</string>
+<string name="double_click_exit">"再点一次退出程序"</string>
+<string name="undo">撤销</string>
+<string name="redo">恢复</string>
+<string name="submit_question">提交</string>
+
+<string name="no_record">本问题没有录播文件</string>
+<string name="push_and_talk_to_attach_voice">按住说话对题目进行语音补充</string>
+<string name="push_to_talk">按住说话</string>
+<string name="post">发送</string>
+<string name="release_to_complete">松开结束</string>
+<string name="slide_up_to_cancel">手指上划 取消发送</string>
+<string name="release_to_cancel">松开取消发送</string>
+<string name="record_voice_failed_alert">录音失败，请检查手机是否支持</string>
+<string name="voice_too_short_alert">说话时间太短</string>
+<string name="attach_text_hint">输入问题补充，单条不超过16个字</string>
+<string name="stroke_size">画笔大小</string>
+<string name="voice_out_of_limit">语音标签最长为30秒</string>
+<string name="question_edit">问题编辑</string>
+<string name="question_detail">问题详情</string>
+<string name="appointment_detail_text">预约详情</string>
+<string name="lilili">李丽丽</string>
+<string name="answered">解答</string>
+<string name="teacher">老师</string>
+<string name="student">同学</string>
+<string name="invalid_question">问题无效</string>
+<string name="a_moment_ago">刚刚</string>
+<string name="minutes_before">分钟前</string>
+<string name="today">今天</string>
+<string name="yesterday">昨天</string>
+<string name="teacher_not_confirmed">老师未确认</string>
+<string name="confirmed">已确认</string>
+<string name="appointment_date_colon">预约时间：</string>
+<string name="expand_all">展开全部</string>
+<string name="collapse_all">收起全部</string>
+<string name="fold_question_pictures_text_tail_part">张提问图片</string>
+<string name="appointment">预约</string>
+<string name="not_appointment">不预约</string>
+<string name="appointment_tip">温馨提示\n预约能提高被解答几率，不预约就要慢慢等待咯~</string>
+
+
+<string name="appointment_status_new">待确认</string>
+<string name="appointment_status_accepted">已确认</string>
+<string name="appointment_status_done">已解答</string>
+<string name="appointment_status_expired">已失效</string>
+
+<string name="crop__saving">Saving picture…</string>
+<string name="crop__wait">Please wait…</string>
+<string name="crop__pick_error">No imageUrl sources available</string>
+<string name="crop__done">DONE</string>
+<string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+<string name="xlistview_footer_hint_normal">更多问题 …</string>
+<string name="xlistview_footer_hint_ready">松开载入更多</string>
+<string name="question_draft">草稿</string>
+<string name="question_waiting">待解答</string>
+<string name="question_locked">待解答</string>
+<string name="question_proposed">已解答</string>
+<string name="question_answered">已解答</string>
+<string name="question_rejected">退回</string>
+<string name="ask_question_tip">把问题拍下来向老师提问吧</string>
+<string name="hide_sigh">隐藏标记</string>
+<string name="page_index">1/5</string>
+
+
+<!-- feedback translations -->
+<string name="commit_feedback_success">感谢您的反馈，我们将尽快处理</string>
+<string name="feedback">意见反馈</string>
+<string name="commit_idea">请输入您的宝贵意见，我们将做得更好，谢谢！</string>
+<string name="limit_count">200</string>
+
+<!--notify-->
+<string name="notify_message">消息通知</string>
+
+<!--  Conversation translations       -->
+<string name="upload_error_tip">图片上传失败，请重新拍照</string>
+<string name="download_error_student">图片加载失败，请等待老师重新拍照</string>
+<string name="download_error_teacher">图片加载失败，请等待学生重新拍照</string>
+<string name="really_to_exit">已经完全理解，确定要离开么?</string>
+<string name="if_completed_answering">已完成解题?</string>
+<string name="congratulation_solve">恭喜你，又攻克了一道难题了！</string>
+<string name="question_has_been_solved">问题已成功解答！\n辛苦了</string>
+<string name="uploading_image">传图中</string>
+<string name="back_to_list">返回到已解答列表</string>
+<string name="go_to_answer_more">去解答更多题目</string>
+<string name="really_to_exit_conversation">老师还未完成解答，离开教室将要等待老师下次解答，确定离开吗？</string>
+<string name="teacher_answered_and_leave">老师已解答完毕并离开，可以自由观看或者离开~</string>
+<string name="lock_operation_not_allowed">白板已锁定，请耐心听老师解题，学生不可翻页、传图或使用画笔。</string>
+<string name="lock_operation_allowed">白板已解锁，学生可翻页、传图或使用画笔</string>
+<string name="other_in_conversation_fail">对方进入白板失败，请退出重新呼叫</string>
+<string name="other_offline_tip">对方已掉线，连接已断开</string>
+<string name="other_leave_tip">对方已离开，连接已断开</string>
+<string name="transfer_image_fail">传图失败</string>
+<string name="transfer_image_complete">传图完成</string>
+<string name="download_fail">下载失败</string>
+<string name="download_complete">下载完成</string>
+<string name="download_image">下载图片</string>
+<string name="teacher_other_net_busy">学生的网络不佳，可能影响白板操作</string>
+<string name="student_other_net_busy">老师的网络不佳，可能影响白板操作</string>
+<string name="student_other_audio_busy">老师的网络不佳，可能影响通话效果</string>
+<string name="teacher_other_audio_busy">学生的网络不佳，可能影响通话效果</string>
+<string name="yourself_net_busy">您的网络不佳，可能影响白板操作，请检查您的网络</string>
+<string name="yourself_audio_busy">您的网络不佳，可能影响通话效果，请检查您的网络</string>
+<string name="default_wb_time_text">0:00</string>
+<string name="teacher_waiting_for_student_confirm">请稍候，正在询问学生是否已完全理解。</string>
+<string name="student_cannot_op_note">老师讲解中，暂时无法操作</string>
+<string name="student_operation">学生操作</string>
+<string name="answer_time">解答时长</string>
+
+<string name="operate_fail">操作失败，请稍后重试…</string>
+<string name="player_timer">00:00/00:00</string>
+<string name="leave_button">离开教室</string>
+<string name="finish_text">结束</string>>
+<string name="complete_text">完成</string>
+<string name="leave_text">离开</string>
+<string name="leave_later">稍后</string>
+<string name="teacher_complete_button">已完成</string>
+<string name="teacher_leave_text">选择“已完成”，等待学生确认；选择“离开教室”，将不保留解答记录</string>
+<string name="student_leave_text">老师还没完成讲解，离开教室将要等待老师下次解答，确定离开吗？</string>
+<string name="student_confirm_text">老师已完成讲解，同学是否已经明白如何解答？明白解答可自由离开</string>
+<string name="teacher_waiting_confirm">正在等待学生确认，请老师稍等</string>
+<string name="teacher_get_confirm">感谢老师的解答，学生已明白如何解答，请老师自由离开</string>
+<string name="teacher_get_not_confirm">学生还有疑惑的地方，请老师继续解答 :)</string>
+<string name="student_confirm_button">是的明白...</string>
+<string name="teacher_waiting_student_confirm_button">等待...</string>>
+<string name="student_not_confirm_button">还想问老师</string>
+<string name="teacher_2_minutes_leave">学生已离开教室，感谢老师的解答，教室将在2分钟后断开连接</string>
+<string name="student_2_minutes_leave">老师已离开教室，感谢同学的听讲，教室将在2分钟后断开连接</string>
+<string name="teacher_try_reconnecting">老师正在尝试返回教室，请稍等</string>
+<string name="student_try_reconnecting">学生正在尝试返回教室，请稍等</string>
+<string name="i_am_offline_text">教室连接断开，请检查您的网络</string>
+<string name="two_minutes_after_offline">教室连接断开</string>>
+<string name="teacher_online_again">已返回教室，请老师继续讲解</string>
+<string name="student_online_again">已返回教室，请学生继续听讲</string>
+<string name="teacher_offline_timeout">暂时无法返回教室，请重新呼叫学生</string>
+<string name="student_offline_timeout">暂时无法返回教室，请等待老师重新呼叫</string>
+<string name="student_other_offline_timeout">老师无法返回教室，教室即将断开连接，请同学尽快离开教室，等待老师呼叫</string>
+<string name="teacher_other_offline_timeout">学生无法返回教室，教室即将断开连接，请老师尽快离开教室，重新呼叫学生</string>
+<string name="teacher_taking_photo">老师正在拍照</string>
+<string name="student_taking_photo">学生正在拍照</string>
+<string name="student_is_downloading">即将显示老师新上传图片</string>
+<string name="teacher_is_downloading">即将显示学生新上传图片</string>
+<string name="i_am_uploading">正在上传图片,请稍等</string>
+<string name="want_to_leave_when_recovering">正在尝试连接教室，是否离开？</string>
+<string name="want_to_leave_when_teacher_recovering">老师正在尝试返回教室，是否退出？</string>
+<string name="want_to_leave_when_student_recovering">学生正在尝试返回教室，是否退出？</string>
+<string name="i_am_adding_blank">即将显示新建白纸</string>
+<string name="add_blank_fail">白纸创建失败，请重新添加白纸</string>
+<string name="student_confirm_timeout">由于选择超时，已默认选择“明白”，同学可自由离开</string>
+<string name="student_not_confirm_timeout">由于选择超时，已默认选择“还想问老师”……</string>
+<string name="teacher_waiting_confirm_timeout">由于学生选择超时，请老师再次和学生确认完成解答……</string>
+<string name="student_take_phone_other_offline">老师当前不在教室，暂时无法接收图片，请稍后再传图</string>
+<string name="teacher_take_phone_other_offline">学生当前不在教室，暂时无法接收图片，请稍后再传图</string>
+
+
+<!-- calling and beingCalled  translations   -->
+<string name="enter">来啦</string>
+<string name="later">稍后</string>
+<string name="student_later_answer">正在退出呼叫…</string>
+<string name="student_time_out">暂时不方便接听，请老师稍后再来</string>
+<string name="call_back_waiting">您正在进行即时解答呼叫</string>
+<string name="call_back_whiteboard">您正在进行白板即时解答</string>
+<string name="call_student_to_answer">呼叫学生即时解答</string>
+<string name="fail_of_bad_net">网络状态不好，进入白板失败</string>
+<string name="exit_to_reCall">请退出重新呼叫…</string>
+<string name="waiting_student">学生正在奔跑而来</string>
+<string name="waiting_student1">请老师稍等片刻~</string>
+<string name="student_accept">学生来啦</string>
+<string name="coming_and_waiting">正在进入白板,请稍候…</string>
+<string name="student_accept1">老师进入白板讲解吧</string>
+<string name="student_timeout">学生暂时没有回应呢</string>
+<string name="student_reject">学生暂时不方便进入呢</string>
+<string name="student_reject1">请老师先去解答其他问题吧~</string>
+<string name="teacher_selected_to_answer">叮咚！老师来解题啦，赶快进去听讲吧！</string>
+<string name="fail_to_join_conversation">进入白板失败，即将退出呼叫</string>
+<string name="other_fail_to_join_conversation">对方进入白板失败</string>
+<string name="teacher_cancel_calling">老师已停止呼叫，稍后自动退出</string>
+<string name="start_timer">30</string>
+<string name="all_download">100%</string>
+<string name="cancel_submit">取消提交</string>
+<string name="new_question_realtime_push">新的问题推送过来啦....</string>
+<string name="called_time_begin">60</string>
+<string name="confirm_leave_realpush">是否退出呼叫？</string>
+
+<!-- net state translations -->
+<string name="yours">您的</string>
+<string name="the_other">对方的</string>
+<string name="net_disconnect">网络已断开，请检查网络</string>
+<string name="net_connect_again">网络连接已恢复</string>
+<string name="net_2G">网络切换至2G…</string>
+<string name="net_3G">网络切换至3G…</string>
+<string name="net_4G">网络切换至4G…</string>
+<string name="net_wifi">网络切换至wifi…</string>
+<string name="net_disconnect_server">与服务器断开,请检查网络</string>
+
+
+<!-- common translations  -->
+<string name="confirm">确认</string>
+<string name="cancel">取消</string>
+<string name="accept">确定</string>
+<string name="submit">提交</string>
+<string name="back">返回</string>
+<string name="exit">退出</string>
+<string name="exit_edit">关闭</string>
+<string name="complete_answer">完成解答</string>
+<string name="anonymous_login">立即体验</string>
+<string name="teacher_uid">老师%d</string>
+<string name="student_uid">学生%d</string>
+
+
+<!-- unused translations -->
+<string name="no_recording">暂时没有录播文件</string>
+<string name="play_button_name">播放</string>
+<string name="select_photo_src">请选择图像来源</string>
+<string name="app_repo_url">http://repo.yypm.com/dwbuild/mobile/android/100edututor/100edututor-android/</string>
+<string name="app_picker_name">Applications</string>
+<string name="passport_hint">请输入手机号码</string>
+<string name="password_hint">请输入密码</string>
+<string name="no_question_tip">还未有提问哦</string>
+<string name="login_failed_unknown">登录失败，请稍后重试</string>
+<string name="select_grade_subject">科目选择</string>
+<string name="wrong_grade_or_subject">要帮问题选择年级和学科哦</string>
+<string name="next_step">下一步</string>
+<string name="finish_answer">完成</string>
+<string name="abandon_answer">放弃</string>
+<string name="accept_answer">接受</string>
+<string name="reject_answer">拒绝</string>
+<string name="complete">完成</string>
+<string name="choose_subject">选择科目</string>
+<string name="choose_grade">选择年级</string>
+<string name="call_teachers">呼叫老师解答</string>
+    <string name="choose_grade_subject">
+        <![CDATA[<font color=\'#546E7A\'>请选择年级、学科（</font><font color=\'#FF9E00\'>必选</font><font color=\'#546E7A\'>）</font>]]></string>
+<string name="missing_grade_subject">请选择年级、学科</string>
+<string name="attach_picture_remind">请添加至少一张问题照片</string>
+<string name="attach_desc_remind">请添加至少10字的问题描述</string>
+<string name="question_submitting">正在提交问题</string>
+<string name="question_create_failed">提交问题失败</string>
+<string name="request_answer">接题</string>
+<string name="wb_archive_corrupted">录像下载失败或者已损坏，请稍后重试…</string>
+<string name="end_call">结束呼叫</string>
+<string name="single_space_char"/>
+<string name="select_grade">选择年级</string>
+<string name="select_subject">选择解答科目</string>
+<string name="selecting_role">正在选择身份</string>
+<string name="downloading_new_version_please_wait">新版本正在下载\n请稍候…</string>
+<string name="date_place_holder">今天 18:40</string>
+<string name="grade_place_holder">五年级</string>
+<string name="subject_place_holder">数学</string>
+<string name="portrait">头像</string>
+<string name="subject_grade">学科年级</string>
+<string name="non_selected">未选择</string>
+<string name="downloading_new_version">下载新版中</string>
+<string name="found_new_version">发现新的版本:</string>
+<string name="new_version_place_holder">0.0.0</string>
+<string name="please_select_grade_first">请先选择年级</string>
+<string name="stroke_toggle">Stroke Toggle</string>
+<string name="title_left">Left</string>
+<string name="title_Title">Title</string>
+<string name="title_right">Right</string>
+<string name="default_grade">初山</string>
+
+<string name="dialog_discard_picture_confirm">是否确定删除图片？</string>
+<string name="dialog_cancel">取消</string>
+<string name="dialog_confirm">确定</string>
+<string name="dialog_oops_plz_commit_again">啊哦，出现了一点小状况，\n请重新提交一次吧</string>
+<string name="dialog_give_up">放弃</string>
+<string name="dialog_commit">提交</string>
+<string name="dialog_retry">重试</string>
+<string name="dialog_submitting_now">正在提交问题</string>
+
+<!-- StudentHomeFragment -->
+<string name="student_count_tip_head_part">我们有</string>
+<string name="student_count_tip_tail_part">位同学</string>
+<string name="student_count_bottom_tip">在这里找到了解题方法</string>
+<string name="teacher_count_tip_head_part">我们有</string>
+<string name="teacher_count_tip_tail_part">位老师</string>
+<string name="teacher_count_bottom_tip">来自全国各重点学校</string>
+<string name="teacher_portrait_text1">乌鲁木齐一中</string>
+<string name="teacher_portrait_text2">青海湟川中学</string>
+<string name="teacher_portrait_text3">人大附中</string>
+<string name="teacher_portrait_text4">成都七中</string>
+<string name="teacher_portrait_text5">黄冈中学</string>
+<string name="teacher_portrait_text6">江苏启东中学</string>
+<string name="teacher_portrait_text7">华南师大附中</string>
+<string name="tutorial_button_text">看看Ta们怎么学</string>
+
+
+<!--预约功能-->
+<string name="realtime_connect_teacher_left">已通知</string>
+<string name="realtime_connect_teacher_right">位老师</string>
+<string name="choose_suitable_teacher">正在为您安排最合适的老师</string>
+<string name="ignore">忽略</string>
+<string name="quick_response">抢答</string>
+<string name="teacher_responding">正在抢答...</string>
+<string name="responding_success">抢答成功!</string>
+<string name="responding_fail">抢答失败!</string>
+<string name="respond_connecting">正在建立连接，请稍候...</string>
+<string name="respond_fail_leave">即将退出</string>>
+<string name="other_responded">下次要在快手一点哦~</string>
+<string name="respond_fail">已被其他老师抢答...</string>
+<string name="before_choosed_teacher">为您安排了</string>
+<string name="after_choosed_teacher">老师</string>
+<string name="please_wait_patiently">已有老师接题，请耐心等待...</string>
+<string name="teacher_busy">啊哦，现在家教繁忙</string>
+<string name="try_appointment">尝试一下预约解答吧！</string>
+
+<!--个人页面-->
+<string name="me_jiaoling_value">教龄</string>
+<string name="me_teachar_person_value">辅导学生</string>
+<string name="me_teachar_question_value">解答题目</string>
+<string name="me_teachar_time_value">上课时长</string>
+<string name="me_student_person_value">老师辅导</string>
+<string name="me_student_question_value">疑难问题</string>
+<string name="me_student_time_value">上课时长</string>
+<string name="me_freetime">空闲时间</string>
+<string name="me_message">消息通知</string>
+<string name="me_feedback">意见反馈</string>
+<string name="me_version">版本更新</string>
+<string name="me_new_version">发现新版本</string>
+<string name="me_about">关于</string>
+<string name="me_infojiaoling">年</string>
+<string name="me_infoperson">名</string>
+<string name="me_infoquestion">道</string>
+<string name="me_infotime">时</string>
+
+<!--老师详情-->
+<string name="teacherinfo_basicInfo">基础信息</string>
+<string name="teacherinfo_example">案例展示</string>
+<string name="teacherinfo_title">老师详情</string>
+<string name="teacherinfo_grade">年级：</string>
+<string name="teacherinfo_subject">科目：</string>
+<string name="teacherinfo_school">学校：</string>
+<string name="teacherinfo_introduction">个人介绍：</string>
+<string name="teacherinfo_yueke">去约课</string>
+<string name="teacherinfo_yuyue">预约辅导</string>
+
+<string name="loading_now">加载中</string>
+<string name="available_times">空闲时间</string>
+<string name="repeat_every_week">每周重复</string>
+<string name="selected">已选</string>
+<string name="get_available_times_failed">获取空闲时间失败</string>
+<string name="save_available_times_failed">保存空闲时间失败</string>
+
+<!--time units-->
+<string name="unit_month">月</string>
+<string name="unit_day">日</string>
+<string name="unit_week">周</string>
+<string name="day_1_of_week">周一</string>
+<string name="day_2_of_week">周二</string>
+<string name="day_3_of_week">周三</string>
+<string name="day_4_of_week">周四</string>
+<string name="day_5_of_week">周五</string>
+<string name="day_6_of_week">周六</string>
+<string name="day_7_of_week">周日</string>
+<string name="notify_send_one_question">求预约</string>
+<string name="notify_order_time">预约时间：</string>
+<string name="appt_time">预约时间：</string>
+<string name="appt_teacher">预约老师：</string>
+<string name="submit_appt">提交预约</string>
+
+<string name="title_activity_appointment_success">AppointmentSuccessActivity</string>
+<string name="dummy_button">Dummy Button</string>
+<string name="dummy_content">DUMMY\nCONTENT</string>
+<string name="please_pay_attention_to_response">请留意稍后老师的回应~</string>
+<string name="back_to_main">返回首页</string>
+<string name="available_teachers_not_required">此时段空闲老师（非必选）</string>
+<string name="submit_appt_success">提交成功</string>
+<string name="appt_question_not_exists">要预约的问题不存在...</string>
+
+<!-- 问题列表相关 -->
+<string name="title_to_answer">待解答</string>
+<string name="title_answered">已解答</string>
+<string name="title_instant_questions">即时答</string>
+<string name="title_to_appoint">求预约</string>
+</resources>

@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.wishingwell">
+
+    <application android:allowBackup="true"
+        android:name=".wishingWell.WishingWellApp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".wishingWell.allviews.MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+
+</manifest>

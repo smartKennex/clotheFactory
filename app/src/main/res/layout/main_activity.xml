@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/suspend_label"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/base_orange"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/main_button1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/suspend_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/main_button1"
+            android:text="@string/call_back_waiting"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/main_button2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:id="@+id/back_to_call_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_tab_button"
+            style="@style/MainViewTabButton"
+            android:checked="true"
+            android:drawableTop="@drawable/home_btn_selector"
+            android:text="@string/home_tab"/>
+
+        <RadioButton
+            android:id="@+id/questions_tab_button"
+            style="@style/MainViewTabButton"
+            android:drawableTop="@drawable/home_btn_selector"
+            android:text="@string/questions_tab"
+            />
+
+        <RadioButton
+            android:id="@+id/discover_tab_button"
+            style="@style/MainViewTabButton"
+            android:drawableTop="@drawable/home_btn_selector"
+            android:text="@string/discover_tab"/>
+
+        <RadioButton
+            android:id="@+id/myself_tab_button"
+            style="@style/MainViewTabButton"
+            android:drawableTop="@drawable/home_btn_selector"
+            android:text="@string/profile"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tab_separator_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/tab_button_container"
+        android:background="@android:color/darker_gray"/>
+
+    <com.example.administrator.wishingwell.wishingWell.allviews.controls.SwipeControllableViewPager
+        android:id="@+id/student_main_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tab_separator_line"
+        android:layout_below="@id/suspend_label"/>
+
+</RelativeLayout>
