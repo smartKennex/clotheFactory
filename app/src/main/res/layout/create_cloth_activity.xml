@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yy.android.tutor.views.controls.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_orange"
+        app:leftDrawable="@drawable/icon_back"
+        app:rightText="@string/submit_question"
+        app:titleText="@string/question_edit"/>
+
+    <com.yy.android.tutor.views.controls.doodle.DoodleBoardHListView
+        android:id="@+id/thumbs_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="#EAEAEA"
+        android:padding="10dp"
+        app:hlv_dividerWidth="8dp"
+        app:itemHeight="64dp"
+        app:itemWidth="64dp"/>
+
+    <include layout="@layout/horizontal_divider_line"/>
+
+    <RelativeLayout
+        android:id="@+id/new_slide_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#DBDBDB"
+        android:padding="4dp">
+
+        <com.yy.android.tutor.views.CreateQuestionLargePictureView
+            android:id="@+id/largePictureView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/slide_shadow_border"
+            android:padding="6dp"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/create_question_toolbar"/>
+
+</LinearLayout>

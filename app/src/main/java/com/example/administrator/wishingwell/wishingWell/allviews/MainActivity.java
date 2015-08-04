@@ -1,6 +1,7 @@
 package com.example.administrator.wishingwell.wishingWell.allviews;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -9,11 +10,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
-
+import android.widget.Toast;
 
 import com.example.administrator.wishingwell.R;
+import com.example.administrator.wishingwell.wishingWell.WishingWellApp;
 import com.example.administrator.wishingwell.wishingWell.allviews.baseviews.BaseFragmentActivity;
 import com.example.administrator.wishingwell.wishingWell.allviews.controls.SwipeControllableViewPager;
+import com.example.administrator.wishingwell.wishingWell.utils.PhotoHelper;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -41,6 +44,8 @@ public class MainActivity extends BaseFragmentActivity {
     private SwipeControllableViewPager mFragViewPager;
     private File mCroppedPictureFile;
     private Fragment[] mFragmentList = new Fragment[TABS_COUNT];
+
+    private long mBackPressTime = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -146,6 +151,15 @@ public class MainActivity extends BaseFragmentActivity {
                 }
             }
         });
+
+        Button askButton = (Button) findViewById(R.id.new_cloth_button);
+        askButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                takePicture2CreateQuestion();
+            }
+        });
+
     }
 
     @Override
@@ -158,5 +172,33 @@ public class MainActivity extends BaseFragmentActivity {
     @Override
     protected void onResume() {
         super.onResume();
+    }
+
+    @Override
+    public void onBackPressed() {
+        long current = System.currentTimeMillis();
+        if (current - mBackPressTime < 2000) {
+            //退出程序
+            WishingWellApp.getInstance().onTerminate();
+            System.exit(0);
+        } else {
+            mBackPressTime = current;
+            Toast.makeText(this, R.string.double_click_exit, Toast.LENGTH_LONG).show();
+        }
+    }
+
+    private void takePicture2CreateQuestion() {
+        mCroppedPictureFile = PhotoHelper.takeSquaredPhoto(this, false);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == PhotoHelper.REQUEST_IMAGE_CUSTOM_CAMERA && resultCode == RESULT_OK && mCroppedPictureFile != null) {
+            //Intent intent = new Intent(MainActivity.this, CreateClothActivity.class);
+            //intent.setData(Uri.fromFile(mCroppedPictureFile));
+            //startActivity(intent);
+        }
     }
 }
